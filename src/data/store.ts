@@ -5,7 +5,7 @@ export const storeData = {
   description:
     'こだわりのコーヒーと、数量限定の手作りパイが楽しめる隠れ家カフェです。\nゆっくり過ごしたい日や、金沢散策の休憩にもおすすめです。',
   address: '〒000-0000 石川県金沢市',
-  addressMapQuery: '金沢市',
+  addressMapQuery: 'kakurezato coffee 金沢',
   phone: '000-000-0000',
   businessHours: [
     { day: '営業時間', time: '00:00 〜 00:00', lastOrder: '00:00' },
@@ -69,29 +69,10 @@ export const storeData = {
       category: 'スイーツ',
       image: '/images/menu/menu3.jpg',
     },
-    {
-      name: 'カフェラテ',
-      description: 'エスプレッソとスチームミルクの絶妙なバランス。',
-      category: 'コーヒー',
-      image: '',
-    },
-    {
-      name: 'ハーブティー',
-      description: '身体にやさしい厳選ハーブのブレンドティー。',
-      category: 'ドリンク',
-      image: '',
-    },
-    {
-      name: 'ドリンクセット',
-      description: 'フード1品＋ドリンクのお得なセットです。',
-      category: 'セット',
-      image: '',
-    },
   ],
   gallery: [
     { label: '店内の様子', image: '/images/gallery/gallery1.jpg' },
     { label: 'テーブル席', image: '/images/gallery/gallery2.jpg' },
     { label: '店舗外観', image: '/images/gallery/gallery3.jpg' },
-    { label: 'コーヒー', image: '/images/gallery/gallery4.jpg' },
   ],
 }
