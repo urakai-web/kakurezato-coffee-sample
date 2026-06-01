@@ -4,25 +4,26 @@ export const storeData = {
   catchcopy: '金沢の路地裏にある隠れ家',
   description:
     'こだわりのコーヒーと、数量限定の手作りパイが楽しめる隠れ家カフェです。\nゆっくり過ごしたい日や、金沢散策の休憩にもおすすめです。',
+  takeout: true,
   address: '〒000-0000 石川県金沢市',
   addressMapQuery: 'kakurezato coffee 金沢',
   phone: '000-000-0000',
   businessHours: [
-    { day: '営業時間', time: '00:00 〜 00:00', lastOrder: '00:00' },
+    { day: '営業時間', time: '12:00 〜 16:45', lastOrder: '16:45' },
   ],
-  closedDays: '未定',
+  closedDays: '不定休',
   smoking: {
     allowed: false,
     note: '全席禁煙',
   },
   parking: {
-    available: false,
-    spaces: 0,
-    note: '',
+    available: true,
+    spaces: 1,
+    note: '店舗正面１台のみ',
   },
   reservation: {
     phone: '000-000-0000',
-    note: '',
+    note: '席のご予約は受け付けておりません。\nお席はご来店順にご案内いたします。',
     onlineUrl: '',
     hours: '',
   },
@@ -52,9 +53,9 @@ export const storeData = {
   ],
   menu: [
     {
-      name: 'スペシャルティコーヒー',
-      description: '厳選した豆を丁寧にハンドドリップしてお届けします。',
-      category: 'コーヒー',
+      name: 'イチゴタルト',
+      description: '新鮮な苺を使ったタルト',
+      category: 'スイーツ',
       image: '/images/menu/menu1.jpg',
     },
     {

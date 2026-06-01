@@ -18,6 +18,16 @@ export default function About() {
                 <p key={i}>{line}</p>
               ))}
             </div>
+            {storeData.takeout && (
+              <div className="mt-6 flex flex-wrap gap-2">
+                <span className="inline-flex items-center gap-1.5 bg-white border border-stone-300 text-stone-700 text-sm font-medium px-3 py-1.5 rounded-full">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+                  テイクアウトあり
+                </span>
+              </div>
+            )}
           </div>
           <div className="relative">
             <img
